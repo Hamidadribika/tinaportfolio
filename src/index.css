@@ -7,57 +7,57 @@
 /* Custom Classes */
 
 body {
-	margin: 0;
-	overflow-x: hidden;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .z-neg {
-	z-index: -1;
+  z-index: -1;
 }
 
 .top-25vh {
-	top: 25vh;
+  top: 25vh;
 }
 
 .top-30 {
-	top: -30px;
+  top: -30px;
 }
 
 .bottom-4 {
-	bottom: 2.5rem;
+  bottom: 2.5rem;
 }
 
 .laptop-bg {
-	height: 600px;
-	width: 800px;
+  height: 600px;
+  width: 800px;
 }
 
 .laptop-bg-slide {
-	height: 21.25rem;
-	margin-top: 2.375rem;
-	width: 70%;
+  height: 21.25rem;
+  margin-top: 2.375rem;
+  width: 70%;
 }
 
 .sitting {
-	bottom: 35px;
-	left: 50px;
+  bottom: 35px;
+  left: 50px;
 }
 
 .bg-video {
-	position: absolute;
-	/* top: calc(50% - 35vh); */
-	width: 100%;
-	top: 0;
-	/* left: 50%; */
-	/* top: 50%; */
-	height: 550px;
-	object-fit: cover;
-	/* transform: translate(-50%, -50%); */
-	z-index: -2;
+  position: absolute;
+  /* top: calc(50% - 35vh); */
+  width: 100%;
+  top: 0;
+  /* left: 50%; */
+  /* top: 50%; */
+  height: 550px;
+  object-fit: cover;
+  /* transform: translate(-50%, -50%); */
+  z-index: -2;
 }
 
 .min-width-25 {
-	min-width: 450px;
+  min-width: 450px;
 }
 
 /* .custom-shape-divider-top-1605383627 {
@@ -94,3 +94,94 @@ body {
 					></path>
 				</svg>
 			</div> */
+.container {
+  display: flex;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+.services-left {
+  margin-top: 15%;
+  width: 50%;
+  margin-left: 10%;
+}
+.services-left h1 {
+  display: inline-block;
+  color: #a9a9a9;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.services-right {
+  width: 50%;
+  margin-top: 15%;
+  margin-bottom: 200px;
+  margin-right: 10%;
+}
+
+.first-column {
+  display: flex;
+  justify-content: space-between;
+}
+.second-column {
+  display: flex;
+  justify-content: space-between;
+}
+.service:hover {
+  background: #ddd;
+}
+.service {
+  padding: 25px;
+}
+.service h2 {
+  color: #828282;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  margin: 0;
+}
+
+.projects {
+  padding: 5%;
+  background-color: #f1f1f1;
+}
+.projects h1 {
+  color: #a9a9a9;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-left: 10%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+}
+.item {
+  padding: 5%;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+}
+.item h2 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  color: #828282;
+}
+
+.item:hover {
+  transform: scale(1.5);
+}
+
+.slider {
+  margin-left: 5%;
+  padding: 50px;
+  justify-content: center;
+}

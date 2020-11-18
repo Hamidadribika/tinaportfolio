@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import About from "./components/About";
 import Services from "./components/Services";
-
+import Work from "./components/Work";
 function App() {
 	return (
 		<div className="w-screen overflow-hidden font-Poppins">
@@ -14,8 +14,9 @@ function App() {
 			<HomePage />
 			<About />
 			<Services />
+			<Work />
 		</div>
-	);
+	); 
 }
 
 export default App;
