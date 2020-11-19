@@ -104,6 +104,7 @@ body {
   margin-top: 15%;
   width: 50%;
   margin-left: 10%;
+  margin-right: 5%;
 }
 .services-left h1 {
   display: inline-block;
@@ -114,7 +115,10 @@ body {
   padding-bottom: 10px;
   margin-top: 40px;
 }
-
+.services-left p {
+  text-align: left;
+  padding: 5px;
+}
 .services-right {
   width: 50%;
   margin-top: 15%;
@@ -136,6 +140,7 @@ body {
 .service {
   padding: 25px;
 }
+
 .service h2 {
   color: #828282;
   font-size: 20px;
@@ -183,5 +188,10 @@ body {
 .slider {
   margin-left: 5%;
   padding: 50px;
+  justify-content: center;
+}
+.ServiceIcon {
+  width: 30%;
+  height: 30%;
   justify-content: center;
 }
