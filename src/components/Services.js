@@ -11,8 +11,9 @@ const Services = () => {
 			<div className="services-left">
 					<h1>Services</h1>
 					<p>This is an introduction about our services. 
-						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+					It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
 					</p>
+					 <button type="button" className="S-btn btn-primary">Learn More</button>
 				
 
 			</div>

@@ -6,6 +6,7 @@ import HomePage from "./components/HomePage";
 import About from "./components/About";
 import Services from "./components/Services";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
 function App() {
 	return (
 		<div className="w-screen overflow-hidden font-Poppins">
@@ -15,6 +16,7 @@ function App() {
 			<About />
 			<Services />
 			<Work />
+			<Contact />
 		</div>
 	); 
 }

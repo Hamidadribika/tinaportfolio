@@ -97,7 +97,7 @@ body {
 .container {
   display: flex;
   margin: 0;
-  background-color: #f1f1f1;
+  background-color: rgba(247, 250, 252);
 }
 
 .services-left {
@@ -149,9 +149,16 @@ body {
   margin: 0;
 }
 
+.S-btn {
+  border: 2px solid #e6e4e4;
+  padding: 1%;
+  padding: 5px;
+  margin-top: 10%;
+  border-radius: 5px;
+}
 .projects {
   padding: 5%;
-  background-color: #f1f1f1;
+  background-color: rgba(247, 250, 252);
 }
 .projects h1 {
   color: #a9a9a9;
@@ -194,4 +201,52 @@ body {
   width: 30%;
   height: 30%;
   justify-content: center;
+}
+
+.contact-title h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+.contact-content {
+  padding: 25%;
+  background-color: rgba(247, 250, 252);
+}
+.form-group {
+  padding: 5px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+input {
+  width: 50%;
+  outline: none;
+  border: 2px solid #e6e4e4;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border-radius: 25px;
+  transform: 0.3s;
+}
+textarea {
+  margin-left: 50px;
+  border: 2px solid #e6e4e4;
+  padding: 0.8rem 1.2rem;
+  min-height: 150px;
+  border-radius: 22px;
+  resize: none;
+  overflow: auto;
+}
+
+.btn {
+  border: 2px solid #e6e4e4;
+  padding: 1%;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-radius: 5px;
 }
